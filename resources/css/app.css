@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply bg-gray-300 px-3 py-2 hover:bg-gray-200;
+    }
+
+    .btn-primary {
+        @apply bg-indigo-500 text-white px-3 py-2 hover:bg-indigo-400;
+    }
+
+    .form-group {
+        @apply flex flex-col mt-2;
+    }
+
+    .form-group label {
+        @apply font-bold;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        @apply border border-gray-300 px-2 py-1;
+    }
+}
